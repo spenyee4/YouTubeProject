@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .thumbnail{
+                width: 200px;
+                border-radius: 20px;
+            }
+
+            .square-img{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .circle-img{
+                width: 200px;
+                height: 200px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 100px;
+            }
+
+            .twitter-img{
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 100px;
+                vertical-align: middle;
+            }
+
+            .twitter-box{
+                color: grey;
+                vertical-align: middle;
+                border: 0px;
+            }
+
+            .tweet-button{
+                background-color: rgb(79, 128, 233);
+                color: white;
+                border: 0px;
+                font-size: 15px;
+                font-weight: bold;
+                border-radius: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="thumbnail" src="cat.jpg">
+        <img class="square-img" src="cat.jpg">
+        <img class="circle-img" src="cat.jpg">
+        <img class="twitter-img" src="cat.jpg">
+        <input class="twitter-box" type="text" placeholder="What's Happening?">
+        <button class="tweet-button">
+            Tweet
+        </button>
+    </body>
+</html>
